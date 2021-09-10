@@ -1,0 +1,51 @@
+.table-container,
+.filter_container {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:hover {
+  background-color: rgba(221, 221, 221, 0.658);
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+th {
+  background-color: #34495e;
+  color: #dd5;
+  padding: 10px;
+  box-shadow: 10px 5px 5px rgba(51, 42, 42, 0.281);
+}
+
+td {
+  cursor: pointer;
+}
+
+tr:nth-child(1) th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
